@@ -1,0 +1,19 @@
+print(" ") # print imprime un espacio
+
+print("Sanchez Perez Briana Sarahi_1213_3W") 
+print(" ") # print imprime un espacio
+
+def my_function(caracter): # 
+    caracter = caracter.lower() # convierte el carácter a minúsculas
+    if caracter in 'aeiou': # comprueba si el caracter está en la cadena de caracteres 
+        return True  # si el carácter es una vocal devuelve True.
+    else: # se ejecuta si no es true
+        return False   # si el carácter no es una vocal devuelve false.
+
+caracter = input("Introduce un carácter: ") # solicita un caracter
+if my_function(caracter): # se ejecuta si es una vocal
+    print(caracter, "es una vocal.") # print imprime si es una vocal
+else: # se ejecuta si no es una vocal
+    print(caracter, "no es una vocal.") # print imprime si no es una vocal
+
+print(" ") # print imprime un espacio
